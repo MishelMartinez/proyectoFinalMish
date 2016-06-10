@@ -1,0 +1,14 @@
+/*section-contac-us/formulario*/
+.color{
+	@extend .text-white;
+	.form-control{
+		border-color:$rosa;
+	}
+}
+/*section-Blog/cuadros*/
+
+.cuadros{
+	p{
+		@extend .text-white, .text-center;
+	}
+}

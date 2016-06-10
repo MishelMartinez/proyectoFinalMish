@@ -1,0 +1,244 @@
+/*Tamano letras*/
+@mixin estilos($color,$tamano,$weight){
+	color:$color;
+	font-size:$tamano;
+	font-weight: $weight;
+}
+@mixin estilo($color,$tamano){
+	color:$color;
+	font-size: $tamano;
+}
+
+/*
+.text-contact{
+	@include estilos(white,3em,600);
+}
+/*/
+/* section one */
+.text-mish{
+	@include estilos(#1CD3B0,140px,680);
+	position: relative;
+	font-family: 'Lobster';
+
+	@media only screen and (max-width: 640px) {
+   
+     font-family: 'Lobster';
+    font-size:56px;
+    color:#1CD3B0;
+    font-weight:bolder;
+
+    }
+    /* texto de lilian mishel */
+
+}
+/* section one */
+#Hi{
+	@include estilo(#16A297,70px);
+	padding-top:20px;
+}
+#text-introduction{
+	font-family:'Raleway';
+	@include estilos(#16A297,20px,400);
+	font-style: italic;
+	padding-top:20px;
+}
+#text-woman{
+	padding-top:20px;
+}
+.text-interes{ 
+	p{ 
+		@include estilos(#FE7340,20px,bolder);
+	}
+	ol li{
+		@include estilos(black,15px,400);
+	}
+}
+.learning{
+	@include estilos(white,15px,400);
+}
+
+/*SECTION PROYECTOS */
+
+.name-portafolio{
+	@include estilos(#2C3E50,34px,600);
+	font-family:'Raleway';
+	
+}
+
+.frase-proyect{
+	font-family:'Raleway';
+	@include estilos(#2C3E50,20px,bolder);
+	font-style: italic;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-transform:lowercase;
+}
+.texto-footer{
+	@include estilo(white,15px);
+}
+
+/*seccion contactos */
+#text-contact{
+	@include estilo(#1CD3B0,70px);
+font-family: 'Lobster';
+	text-transform:uppercase;
+	@media only screen and (max-width: 640px) {
+   
+     font-family: 'Lobster';
+    font-size:46px;
+    color:#1CD3B0;
+    font-weight:bolder;
+
+    }
+}
+.icon-contact{
+	@include estilo(black,70px);
+	padding-left:40%;
+	@media only screen and (max-width: 640px) {
+   padding-left:20%;
+    font-size:26px;
+
+
+    }
+}
+.text-contact{
+	font-family:'Raleway';
+	@include estilos(#16A297,20px,400);
+	font-style: italic;
+	padding-bottom:40px;
+	text-align:center;
+}
+.text-contact:hover{
+	font-family:'Raleway';
+	@include estilos(#FE7341,20px,400);
+	font-style: italic;
+	padding-bottom:40px;
+	text-align:center;
+}
+.responsive-imagen{
+	  height: 730px;
+     width: 730px;
+     padding-left: 30px;
+     
+
+
+@media only screen and (max-width: 968px) {
+   height: 400px;
+     width: 470px;
+     transform: rotate(5deg);
+
+
+
+    }
+}
+
+.icon-contac{
+	@include estilos(black,100px,680);
+	position:relative;
+}
+
+/* SECCION CURRICULUM /*/
+.img-mish-curric{
+	padding-left:200px;
+	@media only screen and (max-width: 640px) {
+   padding-left:0px;
+    }
+}
+
+.icon-curricu{
+	@include estilos(black,40px,680);
+	position:relative;
+
+}
+.text-introduction-curricu{
+	font-family:'Raleway';
+	@include estilos(#2C3E50,15px,bolder);
+	font-style: italic;
+
+}
+.title-curricul{
+	font-family:'Raleway';
+	@include estilos(#16A297,40px,bolder);
+	font-style: italic;
+	text-align:center;
+}
+/*SECCION CURRICUKUM */
+.lista-mide{
+li {
+  list-style-type: upper-roman;
+
+}
+}
+
+.list-apren{
+li {
+   list-style-type: square;
+
+}
+
+    background: #00BDAE;
+    padding: 10px;
+   
+}
+.introduction-mide{
+	@include estilos(#2C3E50,18px,500);
+}
+.activ-mide{
+	@include estilos(#2C3E50,15px,500);
+}
+.import-mide{
+	@include estilos(#2C3E50,17px,600);
+	padding-top:15px;
+
+}
+
+/* SECCION KEANE */
+.title-proyect{
+	color:white;
+	font-family:'Lobster', sans-serif;
+	font-size:140px;
+	@media only screen and (max-width: 968px) {
+   	font-size:50px;
+
+
+
+    }
+}
+#cont-kean{
+	@include estilos(#2C3E50,35px,500);
+}
+#cont-keane{
+	@include estilo(white,35px);
+	font-style:italic;
+	@media only screen and (max-width: 968px) {
+@include estilo(white,25px);
+    }
+}
+#keane-1{
+	background-color:#04A6BD;
+}
+#keane-2{
+	background-color:#D8BE67;
+}
+#keane-3{
+	background-color:#F08030;
+}
+#keane-4{
+	background-color:#1A1017;
+}
+.name-mishel{
+	@include estilos(#16A297,40px,bold);
+	position: relative;
+	font-family: 'Raleway';
+
+	@media only screen and (max-width: 640px) {
+   
+     font-family: 'Lobster';
+    font-size:26px;
+    color:#1CD3B0;
+    font-weight:bolder;
+
+    }
+    /* texto de lilian mishel */
+
+}

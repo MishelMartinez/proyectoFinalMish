@@ -1,0 +1,31 @@
+.header{
+	background-color: red !important !important;
+
+	li:hover{
+		background-color:#F06141;
+	}
+	li{
+		color: black;
+	}
+	p{
+		font-size: 2em;
+		color:$rosa;
+		font-weight: 600;
+	}
+}
+p{
+	font-family:HelveticaNeue;
+
+}
+
+
+#head{
+	ul{
+		li{
+			a{
+				color: #A4A4A4 !important;
+				font-weight: 600;
+			}
+		}
+	}
+}

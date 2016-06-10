@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/uno.css">
+	<link rel="stylesheet" type="text/css" href="">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!--<link rel="shortcut icon" type="text/css" href="img/">-->
+
+</head>
+<body class="color-body">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-12">
+				<div id="panel" class="text-center"><span id="titulo">Adivina Quien?</span></div>
+		<div id="flip">
+			<center><span id="instrucciones">INSTRUCCIONES</span></center>
+			<ul>
+				<li>Espere a que cargue la imagen</li>
+				<li>Ingresa el Nombre de tu companera  (Mayusculas,Minusculas, o revueltas)</li>
+				<li>Una vez segura presiona Enviar</li>
+			</ul>
+		</div>
+			</div>
+		</div>
+		
+	</div>
+	<div class="col-lg-12">
+		<h1>Seleccione Entidad para jugar:</h1>
+		<select name="selectorPais" class="form-control input-lg selecter selectpicker" type="text"  id="pais">
+				<option value=""><a href="#"></a></option>
+				<option value="chile" id="aa"><a href="#">Chile</a></option>
+				<option value="lima"><a href="#">Lima</a></option>
+				<option value="mexico"><a href="#">México</a></option>
+			</select>
+	</div>
+
+		<div id="contenedorJuego" class="col-xs-12">
+
+			<div class="col-xs-12 pp-m"><img  id="imagenPersona" alt="lab" src="" class="img-rounded"></div>
+			<span id="suerte">Ingresa Nombre...</span>
+			<input id="inputNombre" type="text"></input>
+			<button type="button" id="btnRevisar"> Enviar</button>
+			<p>Puntaje es : <span id="punt"></span></p>
+
+		</div>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.1.js"></script>
+	<script type="text/javascript" src="js/uno.js"></script>
+	
+</body>
+</html>

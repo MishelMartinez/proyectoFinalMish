@@ -1,0 +1,102 @@
+/*texto LILIAN MISHEL/*/
+/*section one */
+
+.mishel{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    color:black;
+   background-image: url(../img/mishel.png);
+    cursor:default;
+
+    padding-bottom: 20px;
+    height: 650px;
+
+
+}
+@media only screen and (max-width: 500px) {
+    .mishel {
+        background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    color:black;
+   background-image: url(../img/mishel.png);
+    cursor:default;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    height: 650px;
+      }
+
+}
+
+/*section dos */
+.two{
+    background-color: #F2F2F2;
+    @extend .padding;
+
+}
+/*section tres */
+.three{
+    background-color:#1CD3B0;
+    @extend .padding;
+    
+}
+.contenedor-icon{
+    height: auto;
+    background-color:#FE7340;
+    width: 100%;
+    padding: 5px;
+    
+}
+.tamano-icon{
+    font-size: 25px;
+    color: white;
+}
+/*section footer */
+.footer{
+    background-color:#1E7075;
+    @extend .padding;
+    .a-footer{
+        text-decoration: none;
+        color: #FE7340;
+        font-weight: bold;
+        font-size: 16px;
+
+    }
+    .a-footer:hover{
+        color: white;
+
+    }
+
+}
+
+/*proyectos*/
+.section-proyectos{
+    background-color:#E4F4F3;
+    @extend .padding;
+}
+.padd-proyectos{
+    padding-top: 100px;
+}
+/*CONTACTO*/
+.section-contact{
+background-color:  #F1F1F1;
+    @extend .padding;
+    padding-top: 100px;
+}
+/* KEANE?*/
+.keane{
+    background-color: #64B717;
+    height: auto;
+}
+/* SECCION CONTACTO*/
+
+.section-curric{
+    background-color:#E4F4F3;
+    padding-top: 80px;
+}
+

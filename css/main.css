@@ -1,0 +1,389 @@
+/*Tamano letras*/
+/*
+.text-contact{
+	@include estilos(white,3em,600);
+}
+/*/
+/* section one */
+.text-mish {
+  color: #1CD3B0;
+  font-size: 140px;
+  font-weight: 680;
+  position: relative;
+  font-family: 'Lobster';
+  /* texto de lilian mishel */ }
+  @media only screen and (max-width: 640px) {
+    .text-mish {
+      font-family: 'Lobster';
+      font-size: 56px;
+      color: #1CD3B0;
+      font-weight: bolder; } }
+
+/* section one */
+#Hi {
+  color: #16A297;
+  font-size: 70px;
+  padding-top: 20px; }
+
+#text-introduction {
+  font-family: 'Raleway';
+  color: #16A297;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  padding-top: 20px; }
+
+#text-woman {
+  padding-top: 20px; }
+
+.text-interes p {
+  color: #FE7340;
+  font-size: 20px;
+  font-weight: bolder; }
+.text-interes ol li {
+  color: black;
+  font-size: 15px;
+  font-weight: 400; }
+
+.learning {
+  color: white;
+  font-size: 15px;
+  font-weight: 400; }
+
+/*SECTION PROYECTOS */
+.name-portafolio {
+  color: #2C3E50;
+  font-size: 34px;
+  font-weight: 600;
+  font-family: 'Raleway'; }
+
+.frase-proyect {
+  font-family: 'Raleway';
+  color: #2C3E50;
+  font-size: 20px;
+  font-weight: bolder;
+  font-style: italic;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-transform: lowercase; }
+
+.texto-footer {
+  color: white;
+  font-size: 15px; }
+
+/*seccion contactos */
+#text-contact {
+  color: #1CD3B0;
+  font-size: 70px;
+  font-family: 'Lobster';
+  text-transform: uppercase; }
+  @media only screen and (max-width: 640px) {
+    #text-contact {
+      font-family: 'Lobster';
+      font-size: 46px;
+      color: #1CD3B0;
+      font-weight: bolder; } }
+
+.icon-contact {
+  color: black;
+  font-size: 70px;
+  padding-left: 40%; }
+  @media only screen and (max-width: 640px) {
+    .icon-contact {
+      padding-left: 20%;
+      font-size: 26px; } }
+
+.text-contact {
+  font-family: 'Raleway';
+  color: #16A297;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  padding-bottom: 40px;
+  text-align: center; }
+
+.text-contact:hover {
+  font-family: 'Raleway';
+  color: #FE7341;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+  padding-bottom: 40px;
+  text-align: center; }
+
+.responsive-imagen {
+  height: 730px;
+  width: 730px;
+  padding-left: 30px; }
+  @media only screen and (max-width: 968px) {
+    .responsive-imagen {
+      height: 400px;
+      width: 470px;
+      transform: rotate(5deg); } }
+
+.icon-contac {
+  color: black;
+  font-size: 100px;
+  font-weight: 680;
+  position: relative; }
+
+/* SECCION CURRICULUM /*/
+.img-mish-curric {
+  padding-left: 200px; }
+  @media only screen and (max-width: 640px) {
+    .img-mish-curric {
+      padding-left: 0px; } }
+
+.icon-curricu {
+  color: black;
+  font-size: 40px;
+  font-weight: 680;
+  position: relative; }
+
+.text-introduction-curricu {
+  font-family: 'Raleway';
+  color: #2C3E50;
+  font-size: 15px;
+  font-weight: bolder;
+  font-style: italic; }
+
+.title-curricul {
+  font-family: 'Raleway';
+  color: #16A297;
+  font-size: 40px;
+  font-weight: bolder;
+  font-style: italic;
+  text-align: center; }
+
+/*SECCION CURRICUKUM */
+.lista-mide li {
+  list-style-type: upper-roman; }
+
+.list-apren {
+  background: #00BDAE;
+  padding: 10px; }
+  .list-apren li {
+    list-style-type: square; }
+
+.introduction-mide {
+  color: #2C3E50;
+  font-size: 18px;
+  font-weight: 500; }
+
+.activ-mide {
+  color: #2C3E50;
+  font-size: 15px;
+  font-weight: 500; }
+
+.import-mide {
+  color: #2C3E50;
+  font-size: 17px;
+  font-weight: 600;
+  padding-top: 15px; }
+
+/* SECCION KEANE */
+.title-proyect {
+  color: white;
+  font-family: 'Lobster', sans-serif;
+  font-size: 140px; }
+  @media only screen and (max-width: 968px) {
+    .title-proyect {
+      font-size: 50px; } }
+
+#cont-kean {
+  color: #2C3E50;
+  font-size: 35px;
+  font-weight: 500; }
+
+#cont-keane {
+  color: white;
+  font-size: 35px;
+  font-style: italic; }
+  @media only screen and (max-width: 968px) {
+    #cont-keane {
+      color: white;
+      font-size: 25px; } }
+
+#keane-1 {
+  background-color: #04A6BD; }
+
+#keane-2 {
+  background-color: #D8BE67; }
+
+#keane-3 {
+  background-color: #F08030; }
+
+#keane-4 {
+  background-color: #1A1017; }
+
+.name-mishel {
+  color: #16A297;
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  font-family: 'Raleway';
+  /* texto de lilian mishel */ }
+  @media only screen and (max-width: 640px) {
+    .name-mishel {
+      font-family: 'Lobster';
+      font-size: 26px;
+      color: #1CD3B0;
+      font-weight: bolder; } }
+
+.padding, .two, .three, .footer, .section-proyectos, .section-contact {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+
+.text-center {
+  text-align: center; }
+
+/*section three*/
+.separation-learng {
+  margin-bottom: 30px; }
+
+.separation-learng-2 {
+  margin-bottom: 30px; }
+
+.separation-learng-3 {
+  margin-bottom: 60px; }
+
+.img-proyectos {
+  height: 363px;
+  width: 587px;
+  padding-bottom: 30px; }
+
+.border {
+  border: 4px solid #1FD1AE; }
+
+.box-contact {
+  background-color: #1CD3B0;
+  height: auto;
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  border-radius: 70%; }
+
+.box-inside {
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  width: 60%;
+  margin-left: 20%;
+  height: 50%;
+  border-radius: 80%; }
+
+.marg-bottom {
+  margin-bottom: 40px; }
+
+.marg-top {
+  margin-top: 40px; }
+
+.marg-top-20 {
+  margin-top: 20px; }
+
+.padd-top-20 {
+  margin-top: 70px; }
+
+.box-contact:hover {
+  background-color: #FE7341; }
+
+.img-traingle {
+  height: 500px;
+  width: 500px; }
+  @media only screen and (max-width: 968px) {
+    .img-traingle {
+      height: 500px !important;
+      width: 500px;
+      /*@media screen and (max-width: 480)*/ } }
+
+.rotate {
+  transform: rotate(10deg); }
+
+.a-sin {
+  text-decoration: none; }
+
+.primer-color {
+  width: 100%;
+  height: 100px; }
+
+/*texto LILIAN MISHEL/*/
+/*section one */
+.mishel {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  text-align: center;
+  color: black;
+  background-image: url(../img/mishel.png);
+  cursor: default;
+  padding-bottom: 20px;
+  height: 650px; }
+
+@media only screen and (max-width: 500px) {
+  .mishel {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-image: url(../img/mishel.png);
+    cursor: default;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    height: 650px; } }
+/*section dos */
+.two {
+  background-color: #F2F2F2; }
+
+/*section tres */
+.three {
+  background-color: #1CD3B0; }
+
+.contenedor-icon {
+  height: auto;
+  background-color: #FE7340;
+  width: 100%;
+  padding: 5px; }
+
+.tamano-icon {
+  font-size: 25px;
+  color: white; }
+
+/*section footer */
+.footer {
+  background-color: #1E7075; }
+  .footer .a-footer {
+    text-decoration: none;
+    color: #FE7340;
+    font-weight: bold;
+    font-size: 16px; }
+  .footer .a-footer:hover {
+    color: white; }
+
+/*proyectos*/
+.section-proyectos {
+  background-color: #E4F4F3; }
+
+.padd-proyectos {
+  padding-top: 100px; }
+
+/*CONTACTO*/
+.section-contact {
+  background-color: #F1F1F1;
+  padding-top: 100px; }
+
+/* KEANE?*/
+.keane {
+  background-color: #64B717;
+  height: auto; }
+
+/* SECCION CONTACTO*/
+.section-curric {
+  background-color: #E4F4F3;
+  padding-top: 80px; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,39 @@
+.color-body{
+	background-color: #03D1BA;
+}
+
+#imagenPersona{
+	height: 300px;
+	width: 300px;
+}
+#panel{
+	height: 100px;
+	width: 100%;
+	background-color: #03D1BA;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	
+}
+#flip{
+	height: 200px;
+	width: 100%;
+	background-color: #F1B304;
+	color: black;
+}
+/* TITULO DE ADIVINA*/
+#titulo{
+	font-size: 2em;
+	text-align: center;
+}
+
+#instrucciones{
+	font-size: 2em;
+}
+/* PROPIEDADES*/
+.text-center{
+	text-align: center;
+}
+.pp-m{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}

@@ -1,0 +1,37 @@
+
+.navbar-default{	background-color: #16A297;
+
+}
+.rr{
+	background-color: #8AD3CD !important;
+}
+.navbar-default li{
+color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: white !important;
+   
+}
+.navbar-default .nav li:focus{
+	color: white;
+}
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: red;
+    background-color: white;
+}
+ .header-content {
+    position: relative;
+    padding-top:300px;/*El tamano de la imagen */
+    text-align: center;/*Posicion del texto */  /*cambiar tamanio en mixin/*/
+    text-transform: uppercase;
+
+
+}

@@ -1,0 +1,102 @@
+/*@mixin sexy-border($color, $width: 1in) {
+  border: {
+    color: $color;
+    width: $width;
+    style: dashed;
+  }
+}
+
+.color-blue{
+	@include background-color(#34495E);
+}
+*/
+@mixin cuadross($color,$height,$width){/*section de blog-*/
+	background-color: $color;
+	width: $width;
+	height: $height;
+	display:inline-block;
+	padding-top:5%;
+	padding-bottom:5%;
+
+
+	
+}
+@mixin cuadritos($color,$height,$width){/*cuadros-de-colores-*/
+	background-color: $color;
+
+	height: $height;
+	width: $width;
+	
+}
+.box{
+	@include cuadritos(#F06141,30px,5%)
+}
+/*Tamano letras*/
+@mixin estilos($color,$tamano,$weight){
+	color:$color;
+	font-size:$tamano;
+	font-weight: $weight;
+}
+
+@mixin estilo($color,$weight){
+	color:$color;
+	font-weight: $weight;
+}
+
+.estilo{
+	@include estilos(white,35px,600);/*Titulos de las paginas*/
+	margin-left:2%;
+}
+/*contac us/letras de subtitulos*/
+.about{
+	@include estilos(#F06141,20px,600);
+}
+/*section-Blog/ABAJO DE SLIDER*/
+.blog{
+	span{
+		@include estilos($rosa,15px,600);
+	}
+}
+#blog-2{
+
+		@include estilos($rosa,20px,600);
+}
+.pequenas{
+	@include estilos(gray,10px,600);
+}
+/*section Blog/comillas*/
+.jum{
+	p{
+		@extend .text-center;
+	}
+	.comillas{
+	@include estilos($rosa,3em,600);
+}
+}
+/*section Blog/ccuadros*/
+.cuadros{
+	@include cuadross(#F2AF9D,50px,20%);
+	border:2px solid $rosa;
+}
+/*section Blog/titulos*/
+.catego{
+	@incluide  estilos(blue,2em,600);
+}
+.from{
+	.caption{
+		@extend .text-center;
+		h5{
+			@include estilo($rosa,600);
+		}
+		h4{
+			@include estilo(gray,600);
+		}
+	}
+
+	
+}
+.index{
+
+			@include estilo($rosa,500);
+
+	}
